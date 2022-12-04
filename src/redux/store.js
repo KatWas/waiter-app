@@ -1,6 +1,6 @@
 import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
-import { tablesReducer } from '../redux/tablesRedux.js';
-import { statusReducer } from '../redux/statusRedux.js';
+import { tablesReducer } from './tablesRedux.js';
+import { statusReducer } from './statusRedux.js';
 import thunk from 'redux-thunk';
 import initialState from './initialState';
 
