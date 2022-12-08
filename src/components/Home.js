@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { fetchTables } from "../redux/tablesRedux";
 import { Row, Col } from 'react-bootstrap';
 import { getAllTables} from '../redux/tablesRedux';
-import List from "../views/List.js.js";
+import List from "../views/List.js";
 
 const Home = () => {
     const dispatch = useDispatch();
