@@ -14,7 +14,7 @@ import AddTableForm from './components/AddTableForm';
  
 function App() {
   const dispatch = useDispatch();
-  useEffect(()=>dispatch(fetchStatus()), []);
+  useEffect(()=>dispatch(fetchStatus()), [dispatch]);
   useEffect(()=> dispatch(fetchTables()), [dispatch]);
   
   return (
